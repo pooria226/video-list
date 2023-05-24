@@ -1,0 +1,26 @@
+@import "../theme/index";
+
+.sortButton {
+  border: 0;
+  box-shadow: 0 0 0px;
+  color: $primary !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @extend .button;
+}
+
+.title {
+  @extend .bold-body;
+}
+.subTitle {
+  @extend .small;
+  color: $primary !important;
+}
+
+.titleVideo {
+  @extend .small;
+}
+.rateVideo {
+  @extend .small;
+}

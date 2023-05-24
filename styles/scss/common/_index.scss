@@ -1,0 +1,46 @@
+@import "../theme/index";
+
+//***************************
+// Start Container
+//***************************
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+//***************************
+// End Container
+//***************************
+
+//***************************
+// Start Drawer
+//***************************
+
+.ant-drawer {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0 !important;
+  .ant-drawer-mask {
+    background: rgba(80, 82, 99, 0.76);
+    backdrop-filter: blur(4px);
+  }
+  .ant-drawer-content-wrapper {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    overflow: hidden;
+  }
+}
+
+//***************************
+// End Drawer
+//***************************
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: auto;
+    padding: 8px;
+  }
+}

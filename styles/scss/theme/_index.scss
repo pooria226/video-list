@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "sans-ultra-light";
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.ttf");
+}
+
+@font-face {
+  font-family: "sans-light";
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Light.ttf");
+}
+
+@font-face {
+  font-family: "sans-medium";
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Medium.ttf");
+}
+
+@font-face {
+  font-family: "sans-bold";
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Bold.ttf");
+}
+
+$primary: rgb(172, 177, 184);
+$secondry: rgb(77, 89, 114);
+
+.header3 {
+  font-family: "sans-medium";
+  font-size: 24px;
+}
+.subtitle {
+  font-family: "sans-medium";
+  font-size: 18px;
+}
+.body {
+  font-family: "sans-light";
+  font-size: 16px;
+}
+.bold-body {
+  font-family: "sans-medium";
+  font-size: 16px;
+}
+.button {
+  font-family: "sans-medium";
+  font-size: 16px;
+}
+.link {
+  font-family: "sans-medium";
+  font-size: 16px;
+  text-decoration: underline;
+}
+.small {
+  font-family: "sans-light";
+  font-size: 14px;
+}
+.bold-title {
+  font-family: "sans-medium";
+  font-size: 12px;
+}
+.light-title {
+  font-family: "sans-ultra-light";
+  font-size: 12px;
+}

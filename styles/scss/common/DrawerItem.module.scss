@@ -1,0 +1,6 @@
+@import "../theme/index";
+
+.title {
+  @extend .subtitle;
+  color: $secondry;
+}
